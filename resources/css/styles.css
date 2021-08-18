@@ -6,17 +6,56 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 8px;
+  background-color: #EAF4F4;
 }
 
-/* Responsive layout */
+/* Header Styles */
+header {
+  /*
+  background-image: url('../images/header-bg.jpg');
+  background-position: left;
+  background-repeat: norepeat;
+  background-size: cover;
+  */
+  height: 20rem;
+  background-color: #6B9080;
+}
+
+header h1 {
+  padding: 1.26rem;
+  text-align: center;
+  font-size: 3rem;
+  border: 1.25rem solid white;
+  color: white;
+  width: 50%;
+}
+
+header h3 {
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.header-logo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive layout
+   Mobile and Tablet
+*/
 .container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 
 .row {
   display: flex;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -25,8 +64,18 @@ html {
   flex-basis: 100%;
 }
 
-@media only screen and (min-width: 800px){
-  .container{
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Desktop breakpoint */
+@media screen and (min-width: 50rem){
+  /* Responsive layout */
+  html {
+    font-size: 16px;
+  }
+  .column{
     flex: 1;
   }
 }
