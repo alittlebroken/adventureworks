@@ -81,6 +81,64 @@ nav a:hover {
   color: #A4C3B2;
 }
 
+/* section styling */
+.container h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.container p {
+  text-align: center;
+}
+
+/* gallery styling */
+article img {
+  height: 30rem;
+  width: auto;
+  border-radius: 2rem;
+}
+
+.overlay {
+  position: relative;
+  text-aign: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.overlay-top-left{
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.overlay-top-right{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.overlay-bottom-left{
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+.overlay-bottom-right{
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.overlay-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Responsive layout
    Mobile and Tablet
 */
@@ -99,7 +157,7 @@ nav a:hover {
 
 .column {
   flex-basis: 75%;
-  border: 1px solid red;
+  padding: 0.5rem;
 }
 
 .center {
@@ -107,8 +165,21 @@ nav a:hover {
   align-items: center;
 }
 
+
+
 /* Desktop breakpoint */
 @media screen and (min-width: 50rem){
+
+  /* gallery styling */
+  article img {
+    height: 12rem;
+    width: auto;
+    border-radius: 2rem;
+  }
+
+  .overlay {
+    font-size: 1rem;
+  }
 
   /* Responsive layout */
 
