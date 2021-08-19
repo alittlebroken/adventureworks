@@ -93,6 +93,34 @@ nav a:hover {
   text-align: center;
 }
 
+/* events styling */
+.event {
+  width: 100%;
+}
+
+.event-sidebar {
+  border: 0.1rem solid #6B9080;
+  border-right: 0;
+  border-radius: 1rem 0 0 1rem;
+  width: 2rem;
+  padding: 1rem;
+  background-color: #CCE3DE;
+}
+
+.event-info {
+  border: 0.1rem solid #6B9080;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0.5rem;
+  width: 40rem;
+  background-color: #F6FFFB;
+}
+
+.event-info p {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
 /* gallery styling */
 article img {
   height: 30rem;
