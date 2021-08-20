@@ -178,7 +178,6 @@ article img {
 }
 
 .icon {
-  width: 4rem;
   height: 4rem;
 }
 
@@ -234,6 +233,24 @@ article img {
   padding: 2rem;
 }
 
+.location-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.icon-amenity {
+  height: 5rem;
+  width: auto;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
 /* Responsive layout
    Mobile and Tablet
 */
@@ -253,6 +270,10 @@ article img {
 .column {
   flex-basis: 100%;
   padding: 0.5rem;
+}
+
+.col-sidebyside {
+  flex-basis: 10%;
 }
 
 .center {
