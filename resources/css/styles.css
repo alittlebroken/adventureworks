@@ -10,6 +10,10 @@ html {
   background-color: #EAF4F4;
 }
 
+.debug {
+  border: 1px solid red;
+}
+
 /* Header Styles */
 header {
   /*
@@ -167,6 +171,69 @@ article img {
   transform: translate(-50%, -50%);
 }
 
+/* membership styling */
+.member-header-3 {
+  width: 100%;
+  text-align: center;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.fees-box {
+  width: 95vw;
+}
+
+.fees-title {
+  text-align: center;
+  padding: 2rem;
+}
+
+.member-fee-frequency {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.member-fee {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 4rem;
+}
+
+.join-button {
+  width: 50vw;
+  height: 4rem;
+  border-radius: 1rem;
+  background-color: #A4C3B2;
+  font-weight: bold;
+}
+
+/* Our Sites Styling */
+.title-heading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title-heading p {
+  text-align: left;
+}
+
+.site-h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.title-heading h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
 /* Responsive layout
    Mobile and Tablet
 */
@@ -184,7 +251,7 @@ article img {
 }
 
 .column {
-  flex-basis: 75%;
+  flex-basis: 100%;
   padding: 0.5rem;
 }
 
@@ -193,10 +260,13 @@ article img {
   align-items: center;
 }
 
-
-
 /* Desktop breakpoint */
 @media screen and (min-width: 50rem){
+
+  /* members styling */
+  .icon-box {
+    align-items: center;
+  }
 
   /* gallery styling */
   article img {
@@ -219,8 +289,17 @@ article img {
     max-width: 70rem;
   }
 
-  .column{
-    flex: 1;
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nowrap{
+      flex-wrap: nowrap;
+  }
+
+  .column {
+    flex-basis: 50%;
   }
 
   .nav-container {
@@ -238,5 +317,17 @@ article img {
 
   nav a {
     padding: 1rem;
+  }
+
+  .member-info {
+    width: 100%;
+  }
+
+  .facility-info {
+    width: 100%;
+  }
+
+  #member-benefits:nth-last-child(){
+    width: 9vw;
   }
 }
