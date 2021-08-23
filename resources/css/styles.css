@@ -384,6 +384,29 @@ footer {
     flex-basis: 100%;
   }
 
+  .site-row {
+    flex-basis: 100%;
+  }
+
+  .col-sidebyside {
+    flex-basis: 10%;
+  }
+
+  .icon-amenity {
+    height: 2rem;
+    width: auto;
+  }
+
+  .location-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+
+  .title-heading {
+    flex-basis: 100%;
+  }
+
   .facility-info {
     width: 100%;
   }
