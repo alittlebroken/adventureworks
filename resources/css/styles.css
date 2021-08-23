@@ -251,6 +251,14 @@ h3 {
   text-align: center;
 }
 
+/* footer styling */
+footer {
+  background-color: #A4C3B2;
+  margin: 0;
+  width: 100%;
+  padding: 10rem;
+}
+
 /* Responsive layout
    Mobile and Tablet
 */
