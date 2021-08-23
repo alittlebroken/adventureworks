@@ -126,6 +126,10 @@ nav a:hover {
   width: 100%;
 }
 
+.event h3 {
+  font-size: 1.5rem;
+}
+
 .event-sidebar {
   border: 0.1rem solid #6B9080;
   border-right: 0;
