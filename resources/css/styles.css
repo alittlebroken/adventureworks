@@ -346,7 +346,7 @@ footer {
     max-width: 70rem;
   }
 
-  .row {
+  .row, {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -380,6 +380,10 @@ footer {
     width: 100%;
   }
 
+  .fees-title {
+    flex-basis: 100%;
+  }
+
   .facility-info {
     width: 100%;
   }
@@ -387,4 +391,5 @@ footer {
   #member-benefits:nth-last-child(){
     width: 9vw;
   }
+
 }
