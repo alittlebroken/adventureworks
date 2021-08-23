@@ -1,3 +1,19 @@
+/* Font Imports */
+@font-face {
+  font-family: "RussoOne-Regular";
+  src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url('../fonts/Oxygen-Regular.ttf');
+}
+
 /* Universal styling */
 * {
   box-sizing: border-box;
@@ -8,6 +24,11 @@
 html {
   font-size: 8px;
   background-color: #EAF4F4;
+  font-family: "Oxygen-Regular";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins-Regular";
 }
 
 .debug {
@@ -29,16 +50,18 @@ header {
 header h1 {
   padding: 1.26rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   border: 1.25rem solid white;
   color: white;
   width: 50%;
+  font-family: "RussoOne-Regular";
 }
 
 header h3 {
   padding: 0.3rem;
   color: white;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Poppins-Regular";
 }
 
 .header-logo {
